@@ -1,3 +1,10 @@
+# By default your Loomio instance will report back to www.loomio.org 
+# with the number of discussions, comments, polls, stances, users and visits 
+# that your site has had.
+# If you wish to disable this reporting function, 
+# uncomment the following line to your env file
+DISABLE_USAGE_REPORTING=1
+
 # this is the hostname of your app used by loomio
 CANONICAL_HOST=REPLACE_WITH_HOSTNAME
 
